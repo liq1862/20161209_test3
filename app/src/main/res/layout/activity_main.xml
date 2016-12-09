@@ -16,13 +16,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:id="@+id/fragment"
-        android:layout_height="100dp" />
+        android:layout_height="150dp" />
 
     <fragment
         android:layout_width="match_parent"
-        android:layout_height="100dp"
         android:name="com.example.user.a20161209_test3.FragmentB"
         android:layout_below="@+id/fragment"
         android:layout_alignParentStart="true"
-        android:id="@+id/fragment2" />
+        android:id="@+id/fragment2"
+        android:layout_height="150dp" />
 </RelativeLayout>
